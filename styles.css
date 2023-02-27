@@ -17,14 +17,17 @@ body {
 }
 
 h1 {
+    margin-left: 8%;
+    text-align: start;
     font-size: 50px;
 }
 
-.description {
-    width: 60%;
+
+.p-description {
+    width: 55%;
     text-align: start;
     line-height: 20px;
-    margin: 0 auto;
+    margin-left: 8%;
 }
 
 .container {
@@ -34,10 +37,9 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 20px 10px;
+    padding: 10px;
     max-width: 1400px;
     margin: 0 auto;
-    border-top: solid 5px black;
 }
 
 .container img {
@@ -56,4 +58,21 @@ h1 {
     padding: 60px;
     height: 2.5rem;
     text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+    h1 {
+        font-size: 40px;
+        margin-left: 0;
+    }
+    
+    .p-description {
+        font-size: 14px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .header {
+        border-bottom: solid 5px black;
+    }
 }
