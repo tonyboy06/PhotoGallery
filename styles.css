@@ -10,11 +10,21 @@ body {
 
 .header {
     padding: 40px;
-    text-transform: uppercase;
+    text-transform: none;
     text-align: center;
-    background-color: #201E20;
-    color: 	#DDC3A5;
-    border-bottom: 5px solid #E0A96D ;
+    background-color: transparent;
+    color:	black;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.description {
+    width: 60%;
+    text-align: start;
+    line-height: 20px;
+    margin: 0 auto;
 }
 
 .container {
@@ -27,6 +37,7 @@ body {
     padding: 20px 10px;
     max-width: 1400px;
     margin: 0 auto;
+    border-top: solid 5px black;
 }
 
 .container img {
@@ -34,7 +45,6 @@ body {
     max-width: 350px;
     height: 300px;
     object-fit: cover;
-    border-radius: 10px;
 }
 
 .container::after {
@@ -43,6 +53,7 @@ body {
 }
 
 .footer {
+    padding: 60px;
     height: 2.5rem;
     text-align: center;
 }
