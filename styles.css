@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: sans-serif;
     background: #f5f6f7;
+    font-family: 'Playfair Display', serif;
 }
 
 .header {
@@ -14,12 +15,24 @@ body {
     justify-content: flex-start;
     text-transform: none;
     text-align: start;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 28px;
     background-color: transparent;
     color:	black;
     border-bottom: solid 2px black;
     margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 5px;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 100;
 }
 
 .p-description {
@@ -50,15 +63,26 @@ body {
 }
 
 .footer {
-    padding: 60px;
+    padding: 30px;
+    margin-bottom: 70px;
     height: 2.5rem;
     text-align: center;
+    font-size: 1.4rem;
 }
 
 @media screen and (max-width: 1085px) {
+    .header {
+        padding-top: 10px;
+    }
+
     h1 {
-        font-size: 40px;
+        font-size: 3.5rem;
         margin-left: 0;
+        letter-spacing: normal;
+    }
+
+    h2 {
+        font-size: 1.3rem;
     }
     
     .p-description {
